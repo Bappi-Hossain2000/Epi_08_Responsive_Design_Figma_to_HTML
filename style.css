@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1170px;
+  margin: 20px auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  /* border: rebeccapurple solid 5px; */
+  align-items: center;
+}
+header img{
+  width: 87px;
+  height: 30px;
+}
+header ul{
+  display: flex;
+  gap: 42px;
+}
+header ul li a{
+  text-decoration: none;
+  color: #000;
+  }
+  header button{
+    margin-left: 13px;
+    }
+  header .btn-1{
+    border: none;
+    background: #fff;
+    }
+    header .btn-2{
+      border: #E1E5E8 solid 1px;
+      background: #fff;
+      padding: 9px 13px ;
+    }
+  header button a{
+    text-decoration: none;
+    color: #000;
+    }
+
+
+
+    /* Main area */
+    /* Find the right job for you */
+    .hero_section{
+      display: flex;
+      margin: 50px 0;
+      gap: 4%;
+    }
+    .hero_section .text_area{
+      width: 48%;
+      display: flex;
+      align-items: center;
+    }
+    .hero_section .text_area h1{
+      font-size: 70px;
+      font-weight: bold;
+    }
+    .hero_section .text_area p{
+      margin: 20px 0;
+    }
+    .hero_section .text_area .btn_3{
+      border: none;
+      background: #3936C4;
+      color: #fff;
+      padding: 8px 13px;
+      border-radius: 8px;
+
+    }
+    .hero_section .img_area{
+      width: 48%;
+    }
+    /* Find the right job for you */
+
+    /* Associated with */
+    .associated{
+      text-align: center;
+    }
+    .associated h2 {
+      font-size: 48px;
+      margin: 150px 0 38px 0;
+    }
+    .associated div {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      
+    }
+    /* How it works */
+    .work_area{
+      text-align: center;
+      margin: 180px 0 18px 0;
+      
+    }
+    .work_area h2 {
+      font-size: 52px;
+      
+    }
+    .work_templete {
+      display: flex;
+      margin: 70px 0 180px 0;
+      gap: 4%;
+      justify-content: space-between;
+    }
+    .work_templete div {
+      width: 29%;
+      height: 382px;
+      border-bottom: #000 ;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    /* Latest featured jobs */
+    .all_templete {
+      margin-top: 70px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 50px;
+
+      
+    }
+    .templete {
+      box-shadow: 0px 0px 20px 5px #00000023;
+      padding: 45px 22px;
+      border-radius: 10px;
+      height: 322px;
+      
+    }
+    .templete .job_lacation {
+      margin: 22px 0 55px 0;
+      display: flex;
+      width: 240px;
+      justify-content: space-between;
+    }
+    .templete .job_time {
+      color:#FF8100;
+    }
+    .job_logo {
+      display: flex;
+      justify-content: space-between;
+    }
+    .job_logo button {
+      width: 92px;
+      height: 36px;
+      background: #000;
+      color: #fff;
+      border-radius: 10px;
+      
+    }
+    .latest_f .btn_more {
+      text-align: center;
+    }
+    .latest_f button {
+      margin: 55px 0 180px 0;
+      width: 170px;
+      height: 60px;
+      background: #000;
+      color: #fff;
+      border-radius: 10px;
+      
+    }
